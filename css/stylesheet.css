@@ -71,8 +71,9 @@ footer {
 	padding: 1em;
 	
 }
-img[src]{
+img[alt*="TO"]{
 		flex-grow: 1;
+		height:20em; 
 	}
 .span { 
 	color:red;
