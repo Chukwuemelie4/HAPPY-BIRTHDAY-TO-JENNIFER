@@ -53,6 +53,11 @@ footer {
 	/*padding:0.5em 0% 0.8em 36%;*/
 	padding-left: 36%;
 	font-weight: bold;
+	position: fixed;
+	box-sizing:border-box;
+	width:100%;
+	bottom:0px;
+	
 }
 .images{
 	grid-area: images;
@@ -73,7 +78,7 @@ footer {
 }
 img[alt*="TO"]{
 		flex-grow: 1;
-		height:20em; 
+		height:25em; 
 	}
 .span { 
 	color:red;
