@@ -65,9 +65,15 @@ footer {
 	grid-auto-columns:dense;
 	grid-auto-rows: 100px;
 	grid-auto-flow: dense;
-	padding: 1em
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 1em;
 	
 }
+img[src]{
+		flex-grow: 1;
+	}
 .span { 
 	color:red;
 }
